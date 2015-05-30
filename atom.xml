@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[XD]]></title>
+  <subtitle><![CDATA[我此刻的样子，见风仍然是风]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://daixuan.me/"/>
+  <updated>2015-05-30T15:24:56.188Z</updated>
+  <id>http://daixuan.me/</id>
+  
+  <author>
+    <name><![CDATA[Xuan Dai]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[2015 05 30]]></title>
+    <link href="http://daixuan.me/2015/05/30/2015-05-30/"/>
+    <id>http://daixuan.me/2015/05/30/2015-05-30/</id>
+    <published>2015-05-29T16:00:00.000Z</published>
+    <updated>2015-05-30T15:24:56.188Z</updated>
+    <content type="html"><![CDATA[<h3 id="移动前端开发和_Web_前端开发的区别是什么？"><a href="http://www.zhihu.com/question/20269059/answer/21502610" target="_blank" rel="external">移动前端开发和 Web 前端开发的区别是什么？</a></h3><ul>
+<li>Native App</li>
+<li>Web App</li>
+<li>Hybrid App</li>
+</ul>
+<h3 id="CSS_Specificity">CSS Specificity</h3><p><a href="http://www.w3.org/TR/selectors4" target="_blank" rel="external">css selectors</a><br><a href="http://bigtinabang.com/jekyll/update/2015/02/14/css-specificity.html" target="_blank" rel="external">css specificity</a></p>
+<h3 id="Process">Process</h3><p>Use XMind draw a structure of process…It’s so large ‘_&gt;’</p>
+<p><img src="/images/process.png" alt="process"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[web app / css selectors / process with xmind]]>
+    
+    </summary>
+    
+      <category term="css" scheme="http://daixuan.me/tags/css/"/>
+    
+      <category term="daily" scheme="http://daixuan.me/tags/daily/"/>
+    
+      <category term="mobile web" scheme="http://daixuan.me/tags/mobile-web/"/>
+    
+      <category term="os" scheme="http://daixuan.me/tags/os/"/>
+    
+      <category term="tech-dairy" scheme="http://daixuan.me/categories/tech-dairy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[2015 05 25]]></title>
+    <link href="http://daixuan.me/2015/05/25/2015-05-25/"/>
+    <id>http://daixuan.me/2015/05/25/2015-05-25/</id>
+    <published>2015-05-24T16:00:00.000Z</published>
+    <updated>2015-05-30T15:25:15.319Z</updated>
+    <content type="html"><![CDATA[<p>Today I spent some time drawing a resume with AI like <a href="https://joyeecheung.github.io/resume/static/resume.pdf" target="_blank" rel="external">joyee’s resume</a>~</p>
+<p><img src="/images/resume-1.png" alt="resume"></p>
+<p>But there is so much white that I can’t fill with something… A long way to go…QAQ</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[Draw a Resume with AI]]>
+    
+    </summary>
+    
+      <category term="AI" scheme="http://daixuan.me/tags/AI/"/>
+    
+      <category term="daily" scheme="http://daixuan.me/tags/daily/"/>
+    
+      <category term="tech-dairy" scheme="http://daixuan.me/categories/tech-dairy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[2015 05 24]]></title>
+    <link href="http://daixuan.me/2015/05/24/2015-05-24/"/>
+    <id>http://daixuan.me/2015/05/24/2015-05-24/</id>
+    <published>2015-05-23T16:00:00.000Z</published>
+    <updated>2015-05-24T16:03:52.654Z</updated>
+    <content type="html"><![CDATA[<h2 id="Resume">Resume</h2><p><a href="http://michael282694.farbox.com/post/rang-ni-de-jian-li-geng-chu-zhong-zz-li-kai-fu" target="_blank" rel="external">让你的简历更出众</a></p>
+<p><a href="http://zhuanlan.zhihu.com/Michael282694/20037396" target="_blank" rel="external">互联网求职志 I</a><br><a href="http://zhuanlan.zhihu.com/Michael282694/20041737" target="_blank" rel="external">互联网求职志 II</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[Resume Detail]]>
+    
+    </summary>
+    
+      <category term="daily" scheme="http://daixuan.me/tags/daily/"/>
+    
+      <category term="tech-dairy" scheme="http://daixuan.me/categories/tech-dairy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[2015 05 23]]></title>
+    <link href="http://daixuan.me/2015/05/23/2015-05-23/"/>
+    <id>http://daixuan.me/2015/05/23/2015-05-23/</id>
+    <published>2015-05-22T16:00:00.000Z</published>
+    <updated>2015-05-23T07:34:04.941Z</updated>
+    <content type="html"><![CDATA[<h2 id="JavaScript">JavaScript</h2><h3 id="IIFE(Immediately-Invoked_Function_Expression)">IIFE(Immediately-Invoked Function Expression)</h3><p>See there: <a href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/" target="_blank" rel="external">IIFE</a></p>
+<h3 id="JavaScript_Module_Pattern">JavaScript Module Pattern</h3><ul>
+<li><p><a href="http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html" target="_blank" rel="external">JavaScript Module Pattern: In-Depth</a></p>
+</li>
+<li><p><a href="http://www.ruanyifeng.com/blog/2012/10/javascript_module.html" target="_blank" rel="external">Javascript模块化编程（一）：模块的写法</a></p>
+</li>
+<li><a href="http://www.ruanyifeng.com/blog/2012/10/asynchronous_module_definition.html" target="_blank" rel="external">Javascript模块化编程（二）：AMD规范</a></li>
+<li><p><a href="http://www.ruanyifeng.com/blog/2012/11/require_js.html" target="_blank" rel="external">Javascript模块化编程（三）：Require.js的用法</a></p>
+</li>
+<li><p><a href="http://segmentfault.com/a/1190000000733959" target="_blank" rel="external">JavaScript模块化详解</a></p>
+</li>
+<li><p><a href="http://addyosmani.com/writing-modular-js/" target="_blank" rel="external">Writing Modular JavaScript With AMD, CommonJS &amp; ES Harmony</a></p>
+</li>
+</ul>
+<h4 id="AMD_/_CMD">AMD / CMD</h4><ul>
+<li><a href="https://github.com/amdjs/amdjs-api/wiki/AMD" target="_blank" rel="external">AMD</a></li>
+<li><p><a href="https://github.com/seajs/seajs/issues/242" target="_blank" rel="external">CMD</a></p>
+</li>
+<li><p><a href="http://www.zhihu.com/question/20351507" target="_blank" rel="external">AMD 和 CMD 的区别有哪些？</a></p>
+</li>
+<li><a href="http://www.zhihu.com/question/21347409#answer-2323656" target="_blank" rel="external">YUI Modules 与 AMD/CMD，哪一种方式更好？</a></li>
+</ul>
+<h4 id="RequireJs"><a href="http://www.requirejs.org/" target="_blank" rel="external">RequireJs</a></h4><h4 id="SeaJs"><a href="http://seajs.org/docs/" target="_blank" rel="external">SeaJs</a></h4><h4 id="CommonJs"><a href="http://www.commonjs.org/" target="_blank" rel="external">CommonJs</a></h4><h2 id="AI">AI</h2><p>I was going to find a resume design tutorial with AI in tuts, but I couldn’t find one…However, I found this! <a href="https://design.tutsplus.com/tutorials/how-to-create-a-desk-scenery-illustration-using-adobe-illustrator--cms-23845" target="_blank" rel="external">How to Create a Desk Scenery Illustration Using Adobe Illustrator</a>, and I created one following this~</p>
+<p>Here is the result!<br><img src="/images/2015-05-23.jpg" alt="my desk~"></p>
+<p>PS: I thought that I could finish this in 1 hour, but the result turns out to be 4 hours. Please allow me to cry for minutes.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[JavaScript Module Pattern and A Picture]]>
+    
+    </summary>
+    
+      <category term="AI" scheme="http://daixuan.me/tags/AI/"/>
+    
+      <category term="daily" scheme="http://daixuan.me/tags/daily/"/>
+    
+      <category term="javascript" scheme="http://daixuan.me/tags/javascript/"/>
+    
+      <category term="tech-dairy" scheme="http://daixuan.me/categories/tech-dairy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Notes for Professional JavaScript for Web Developers]]></title>
+    <link href="http://daixuan.me/2015/05/22/Notes-for-Professional-JavaScript-for-Web-Developers/"/>
+    <id>http://daixuan.me/2015/05/22/Notes-for-Professional-JavaScript-for-Web-Developers/</id>
+    <published>2015-05-21T16:00:00.000Z</published>
+    <updated>2015-05-25T13:44:09.350Z</updated>
+    <content type="html"><![CDATA[<h2 id="Chapter_1_What_is_JavaScript">Chapter 1 What is JavaScript</h2><p>A complete JavaScript implementation is made up of the following three distinct parts.</p>
+<ul>
+<li>The Core (ECMAScript)</li>
+<li>The Document Object Model (DOM)</li>
+<li>The Browser Object Model (BOM)</li>
+</ul>
+<h3 id="ECAMScript"><a href="http://www.ecma-international.org/ecma-262/5.1/" target="_blank" rel="external">ECAMScript</a></h3><p><em>ECMAScript</em>, the language defined in ECMA-262, isn’t tied to web browsers.<br>ECMA-262 defines this language as a base upon which more-robust scripting language may be built. Web Broswers are just one <em>host environment</em> in which an ECMAScript and implementation may exists.</p>
+<h4 id="What_exactily_does_ECMA-262_specify?">What exactily does ECMA-262 specify?</h4><p>  <strong>Syntax, Type, Statement, Key word, Reserved words, Operators, Objects</strong></p>
+<h3 id="DOM">DOM</h3><p>The DOM is an API for XML that was extended for use in HTML. The DOM maps out an entire page as a hierarchy of nodes.<br><em>DOM is not JavaScript-specific and indeed has been implemented in numerous other languages.</em></p>
+<h4 id="DOM_Levels">DOM Levels</h4><h5 id="DOM_Level1">DOM Level1</h5><ul>
+<li>Consisted of two modules: the DOM Core, which provided a way to map the structure of an XML-based document to allow for easy access to and manipulation of any part of a document. And the DOM HTML, which extended the DOM Core by adding HTML-specific objects and methods.</li>
+</ul>
+<h5 id="DOM_Level2">DOM Level2</h5><ul>
+<li>Add original extension of the original DOM for mouse and user-interface events, ranges, traversals, and support for CSS through object interfaces.</li>
+<li>The original DOM Core was also extended to include support for XML namespace.</li>
+<li>Introduced these modules:<ol>
+<li>DOM Views</li>
+<li>DOM Events</li>
+<li>DOM Style</li>
+<li>DOM Traversal and Range</li>
+</ol>
+</li>
+</ul>
+<h5 id="DOM_Level3">DOM Level3</h5><ul>
+<li>Further extends the DOM with the introducton of methods to load and save documents in a uniform way(contained in a new module called DOM Load and Save) and methods to validate a document(DOM Validation).</li>
+<li>The DOM Core is extended to support all of XML 1.0, including XML Infoset, XPaht, and XML Base.</li>
+</ul>
+<h3 id="BOM">BOM</h3><p>Primarily, the BOM deals with the browser window and frames, but generally and browser-specific extension of JavaScript is considered to be a part of the BOM.</p>
+<h2 id="Chapter_2_JavaScript_in_HTML">Chapter 2 JavaScript in HTML</h2><h3 id="The_script_Tag_Placement">The <code>script</code> Tag Placement</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="doctype">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">title</span>&gt;</span><span class="tag">&lt;/<span class="title">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/javascript"</span> <span class="attribute">src</span>=<span class="value">"1.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">h1</span>&gt;</span><span class="tag">&lt;/<span class="title">h1</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/javascript"</span> <span class="attribute">src</span>=<span class="value">"2.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">html</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--1.js -&gt; body -&gt; 2.js--&gt;</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>Including in <code>&lt;head&gt;</code> of a document means that all of the JS code must be downloaded, parsed, and interpreted before the page begins rendering (receive <code>&lt;body&gt;</code> tag).</li>
+<li>Including all JS reference in the <code>&lt;body&gt;</code> element, the page is completely rendered in the browser before the JS code is processed. This resulting user experience is preceived as faster.</li>
+</ul>
+<h3 id="Inline_Code_vs_External_Files">Inline Code vs External Files</h3><ul>
+<li>Maintainability</li>
+<li>Caching</li>
+<li>Future-proof</li>
+</ul>
+<h3 id="noscript_Element"><code>noscript</code> Element</h3><ul>
+<li>This element can contain any HTML elements, aside from element will be displayed under only the following two circumstances. Any content contained in a <code>&lt;noscript&gt;</code> element will be displayed under only the following two circumstances:<ol>
+<li>The browser doesn’t support scripting.</li>
+<li>The browser’s scripting support is turned off.</li>
+</ol>
+</li>
+</ul>
+<h2 id="Chapter_3_Language_Basics">Chapter 3 Language Basics</h2><h3 id="Little">Little</h3><ul>
+<li>Case-sensitive</li>
+<li>Camel case preferred</li>
+<li>Semicolon is not required at the end of statements, but is recommended to always include one</li>
+</ul>
+<h3 id="Strict_Mode">Strict Mode</h3><ul>
+<li>E5 introduced the concept of <em>strict mode</em>. Strict mode is a different parsing and execution model for JS, where some of the erratic behavior of E3 is addressed and errors are thrown for unsafe activities.</li>
+<li><p>Enable strict mode by including the following at the top:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="pi">"use strict"</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// or</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">foo</span><span class="params">()</span> </span>&#123;</span><br><span class="line"><span class="pi">  "use strict"</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>The string is a pragma that tells supporting JS engines to change into strict mode. The syntax was choosen specially so as not to break E3 syntax.</p>
+</li>
+</ul>
+<h3 id="Variable">Variable</h3><ul>
+<li>Loosely typed</li>
+<li>Using <code>var</code> operator to define a variable makes it local to the scope in which it was defined. That’s to say, defining a variable inside of a function using <code>var</code> means that the variable is destroyed as soon as the function exists.</li>
+<li>By removing the <code>var</code> operator, the variavke becomes global. <em>Not recommend</em>.</li>
+</ul>
+<h3 id="Data_Type">Data Type</h3><ul>
+<li>Five simple (primitive) types: <code>Undefined</code>, <code>Null</code>, <code>Boolean</code>, <code>Number</code>, <code>String</code></li>
+<li>One complex data type — <code>Object</code>, which is an unordered list of name-value pairs.</li>
+<li><code>typeof(variable or literal)</code> return the above six types</li>
+</ul>
+<h4 id="Undefined">Undefined</h4><p>The Undefined type has only one value, <code>undefined</code>.</p>
+<h4 id="Null">Null</h4><p>The Null type has only one value, <code>null</code>. Logically, a <code>null</code> value is an empty object pointer, which is why <code>typeof</code> returns “object” when it’s passed a <code>null</code> value.</p>
+<p>It’s advisable to initialize the variable to <code>null</code> when defining a variable that is meant to later hold an object.</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a = <span class="literal">null</span>;</span><br><span class="line"><span class="keyword">typeof</span>(a);           <span class="comment">// "object"</span></span><br><span class="line"><span class="literal">null</span> == <span class="literal">undefined</span>;   <span class="comment">// true</span></span><br><span class="line"><span class="literal">null</span> === <span class="literal">undefined</span>;  <span class="comment">// false</span></span><br></pre></td></tr></table></figure>
+<h4 id="Boolean">Boolean</h4><p>The Boolean type has only two literal values: <code>true</code> and <code>false</code>.<br>Though there are just two literal Boolean values, all types of values have Boolean equivalents in ECMAScript.</p>
+<p>To be false: <code>false</code>, <code>&quot;&quot;</code>(empty string), <code>0, NAN</code>, <code>null</code>, <code>undefined</code>.</p>
+<ul>
+<li><code>Boolean()</code></li>
+</ul>
+<h4 id="Number">Number</h4><p>Use IEEE-754 format to present both integers and floating-point values. And there are several different number literal formats.</p>
+<ul>
+<li><code>Number.MIN_VALUE</code> and <code>Number.MAX_VALUE</code></li>
+<li><code>Infinity</code> and <code>isFinite()</code></li>
+<li><code>NaN</code> and <code>isNaN()</code><br>Not a number. In ECMAScript, dividing a number by 0 returns <code>NaN</code>.</li>
+<li><code>Number()</code>, <code>parseInt()</code> and <code>parseFloat()</code><br>parseInt() can take two arguments but parseFloat() only parses decimal values.</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> _int = <span class="number">55</span>,    <span class="comment">// decimal</span></span><br><span class="line">    _oct = <span class="number">047</span>,   <span class="comment">// octal</span></span><br><span class="line">    _oct2 = <span class="number">078</span>,  <span class="comment">// decimal</span></span><br><span class="line">    _hex = <span class="number">0xA</span>;   <span class="comment">// hexadecimal</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> e_notation = <span class="number">3.1415e5</span>;  <span class="comment">// 314150</span></span><br><span class="line"><span class="number">0.1</span> + <span class="number">0.2</span> == <span class="number">0.3</span>;           <span class="comment">// false, 0.1+0.2=0.30000000000000004</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">typeof</span>(<span class="literal">Infinity</span>);    <span class="comment">// "number"</span></span><br><span class="line"><span class="built_in">parseInt</span>(<span class="string">"AF"</span>, <span class="number">16</span>);  <span class="comment">// 175</span></span><br><span class="line"><span class="built_in">parseInt</span>(AF, <span class="number">16</span>);    <span class="comment">// AF is not defined</span></span><br><span class="line"><span class="built_in">parseInt</span>(<span class="string">"AF"</span>);      <span class="comment">// NaN</span></span><br><span class="line"><span class="built_in">parseFloat</span>(<span class="string">"2.3.4"</span>); <span class="comment">// 2.3</span></span><br></pre></td></tr></table></figure>
+<h4 id="String">String</h4><p>The String data type represents a sequence of zero or more 16-bit Unicode characters. Both “” and ‘’ are legal.</p>
+<p>Strings are immutable. To change the string held by a variable, the original string must be destroyed and the variable filled with another string containing a new value.</p>
+<ul>
+<li><code>toString()</code> and <code>String()</code><br><code>toString()</code> can take an argument, the radix in which to output the number.</li>
+</ul>
+<h4 id="Object">Object</h4><p>Objects in ECMAScript start out as nonspecific groups of data and functionaltiy.</p>
+<h3 id="Operators">Operators</h3><ul>
+<li><code>+ - * / % =</code> and <code>++ --</code></li>
+<li>Bitwise Operators: NOT - <code>~</code>, AND - <code>&amp;</code>, OR - <code>|</code>, XOR - <code>^</code>, and Left Shift <code>&lt;&lt;</code>, Signed Right Shift <code>&gt;&gt;</code> Unsigned Right Shif <code>&gt;&gt;&gt;</code>.</li>
+<li>Boolean Operators: NOT - <code>!</code>, AND - <code>&amp;&amp;</code>, OR - <code>||</code>.</li>
+<li>Relational Operators:  <code>&gt;</code>, <code>&lt;</code>, <code>&gt;=</code>, <code>&lt;=</code>, <code>==</code>, <code>!=</code>, <code>===</code>, <code>!==</code><br>The identically equal and not identically equal operators do the same thing as equal and not equal, except that they do not convert operands before testing for equality.</li>
+<li><code>? :</code>, <code>,</code></li>
+</ul>
+<h3 id="Statement">Statement</h3><ol>
+<li><code>if elseif else</code></li>
+<li><code>do while</code> / <code>while</code></li>
+<li><code>for</code> / <code>for-in</code></li>
+<li><code>label</code></li>
+<li><code>continue</code> / <code>break</code></li>
+<li><code>with</code></li>
+<li><code>switch</code></li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">with</span>(location) &#123;</span><br><span class="line">  <span class="keyword">var</span> qs = hostname;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// equal to</span></span><br><span class="line"><span class="keyword">var</span> _qs = location.hostname</span><br><span class="line"><span class="comment">// with makes error in strict mode</span></span><br></pre></td></tr></table></figure>
+<h3 id="Functions">Functions</h3><p>An ECMAScript function doesn’t care how many arguments are passed in, nor does it care about the data types of those arguments. Arguments in ECMAScript are represented as an array internally. The array is passed to the function, but the function doesn’t care what (if anything) is in the array.<br>The <code>arguments</code> obejct acts like an array in that u can access each argument using bracket notation and determine how many arguments were passed in by using the <code>length</code> property.</p>
+<p>ECMAScript functions cannot be overloaded in the traditional sense. They don’t have signatures (the type and number arguments accepted).</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[book notes for Professional JavaScript for Web Developers]]>
+    
+    </summary>
+    
+      <category term="book" scheme="http://daixuan.me/tags/book/"/>
+    
+      <category term="javascript" scheme="http://daixuan.me/tags/javascript/"/>
+    
+      <category term="Notes" scheme="http://daixuan.me/categories/Notes/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[2015 05 21]]></title>
+    <link href="http://daixuan.me/2015/05/21/2015-05-21/"/>
+    <id>http://daixuan.me/2015/05/21/2015-05-21/</id>
+    <published>2015-05-20T16:00:00.000Z</published>
+    <updated>2015-05-23T01:26:14.188Z</updated>
+    <content type="html"><![CDATA[<h2 id="Gulp_-_The_streaming_build_system">Gulp - The streaming build system</h2><h3 id="Building_with_gulp"><a href="http://www.smashingmagazine.com/2014/06/11/building-with-gulp/" target="_blank" rel="external">Building with gulp</a></h3><h4 id="What_is_Gulp?">What is Gulp?</h4><ul>
+<li>A build system built on Node.js. We can use gulp to automate common taskes in the development of a website.</li>
+<li><a href="https://www.npmjs.com/search?q=gulp+plugin" target="_blank" rel="external">Plenty of plugins</a>.</li>
+<li><a href="https://github.com/gulpjs/gulp" target="_blank" rel="external">Open source</a>.</li>
+</ul>
+<h4 id="A_gulpfile-js">A gulpfile.js</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> gulp = <span class="built_in">require</span>(<span class="string">'gulp'</span>),</span><br><span class="line">    uglify = <span class="built_in">require</span>(<span class="string">'gulp-uglify'</span>);</span><br><span class="line"></span><br><span class="line">gulp.task(<span class="string">'minify'</span>, <span class="function"><span class="keyword">function</span> <span class="params">()</span> </span>&#123;</span><br><span class="line">    gulp.src(<span class="string">'js/app.js'</span>)</span><br><span class="line">        .pipe(uglify())</span><br><span class="line">        .pipe(gulp.dest(<span class="string">'build'</span>))</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<h4 id="What_is_streams?">What is streams?</h4><ul>
+<li>Streams enable you to <strong>pass some data</strong> through a number of usually small functions, which will <strong>modify the data</strong> and then <strong>pass the modified data</strong> to the next function.<ol>
+<li>The <code>gulp.src()</code> function takes <em>a string that matches a file or number of files</em> (know as a “glob”), and creates a <strong>stream of objects</strong> representing those files.</li>
+<li>They are passed (or <code>piped</code>) to the <code>uglify()</code> function, which takes the file objects and returns new file objects with a minified source.</li>
+<li>That output is then <code>piped</code> to the <code>gulp.dest()</code> function, which saves the changed files.</li>
+</ol>
+</li>
+<li>For more, see <a href="https://github.com/substack/stream-handbook" target="_blank" rel="external">Stream Handbook</a></li>
+</ul>
+<h4 id="Details">Details</h4><ul>
+<li><code>gulp.src()</code> to read files<br>  See <a href="https://www.npmjs.com/package/glob" target="_blank" rel="external">node-glob</a>.</li>
+<li><code>gulp.task()</code> to define a task and use plugins</li>
+<li><p><code>gulpLoadPlugins</code><br>  A module that automatically loads any Gulp plugins from your <code>package.json</code> file and attaches them to an object. Like this:</p>
+  <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> gulp = <span class="built_in">require</span>(<span class="string">'gulp'</span>),</span><br><span class="line">    gulpLoadPlugins = <span class="built_in">require</span>(<span class="string">'gulp-load-plugins'</span>),</span><br><span class="line">    plugins = gulpLoadPlugins();</span><br><span class="line">    <span class="comment">// or simply plugins = require('gulp-load-plugins')()</span></span><br><span class="line"></span><br><span class="line">gulp.task(<span class="string">'js'</span>, <span class="function"><span class="keyword">function</span> <span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> gulp.src(<span class="string">'js/*.js'</span>)</span><br><span class="line">    .pipe(plugins.jshint())</span><br><span class="line">    .pipe(plugins.jshint.reporter(<span class="string">'default'</span>))</span><br><span class="line">    .pipe(plugins.uglify())</span><br><span class="line">    .pipe(plugins.concat(<span class="string">'app.js'</span>))</span><br><span class="line">    .pipe(gulp.dest(<span class="string">'build'</span>));</span><br><span class="line">  &#125;);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><code>gulp.watch()</code> to watch files for change and then run a task or tasks when changes are detected.</p>
+  <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">gulp.task(<span class="string">'watch'</span>, <span class="function"><span class="keyword">function</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  gulp.watch(<span class="string">'**/*'</span>, [<span class="string">'build'</span>, <span class="string">'taskname'</span>]);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">gulp.watch(<span class="string">'**/*'</span>, <span class="function"><span class="keyword">function</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(event.type); <span class="comment">// added, changed, deleted</span></span><br><span class="line">  <span class="built_in">console</span>.log(event.path); <span class="comment">// the path</span></span><br><span class="line">&#125;);</span><br><span class="line"><span class="comment">// watcher</span></span><br><span class="line"><span class="keyword">var</span> watcher = gulp.watch(<span class="string">'**/*'</span>, [<span class="string">'build'</span>, <span class="string">'taskname'</span>]);</span><br><span class="line">watcher.on(<span class="string">'change'</span>, <span class="function"><span class="keyword">function</span><span class="params">(event)</span> </span>&#123;...&#125;);</span><br><span class="line"><span class="comment">// and there are many other events</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p><code>gulp-livereload</code><br>See <a href="https://github.com/vohof/gulp-livereload" target="_blank" rel="external">gulp-livereload</a></p>
+</li>
+<li><p>browser-sync<br>See <a href="http://www.browsersync.io/" target="_blank" rel="external">browser-sync</a></p>
+</li>
+</ul>
+<h4 id="Why_Gulp?">Why Gulp?</h4><ul>
+<li>There are many other build tools like <a href="http://gruntjs.com/" target="_blank" rel="external">Grunt</a>, <a href="http://www.solitr.com/blog/2014/02/broccoli-first-release/" target="_blank" rel="external">Broccoli</a> available, why choose gulp?</li>
+<li>Grunt<ul>
+<li><a href="https://www.npmjs.com/search?q=grunt+plugin" target="_blank" rel="external">Thousands of plugins available</a>.</li>
+<li><a href="http://bower.io/" target="_blank" rel="external">Bower</a>, <a href="http://bower.io/" target="_blank" rel="external">Express</a></li>
+<li>Tends to be <strong>over-configured</strong>, <strong>requiring a large object containing properties</strong> that you really wouldn’t want to have to care about, while the same task in Gulp might take up only a few lines</li>
+<li>Because Grunt hits the file system far more often than Gulp, which uses streams, Gulp is nearly always much faster than Grunt.</li>
+</ul>
+</li>
+</ul>
+<h2 id="Node-js">Node.js</h2><h3 id="exports_?_module-exports">exports ? module.exports</h3><p><a href="http://weizhifeng.net/node-js-exports-vs-module-exports.html" target="_blank" rel="external">What is the difference between exports and module.exports in Node.js?</a></p>
+<h2 id="Tools">Tools</h2><h3 id="Source_Map">Source Map</h3><p>See there: <a href="http://www.ruanyifeng.com/blog/2013/01/javascript_source_map.html" target="_blank" rel="external">Javascript Source Map</a></p>
+<h2 id="Resume_Design">Resume Design</h2><p>Recently, influenced by <a href="https://github.com/joyeecheung" target="_blank" rel="external">JoyeePedia</a> and my fool friend, I’m going to design a resume template for myself and others…At the same time, learn AI, gulp’s abundant plugins…And I’ll refer to this <a href="https://github.com/joyeecheung/resume" target="_blank" rel="external">resume</a> by Joyee.<br>It can be a long way…So just wait :)</p>
+<p>Here is the unstarted repo: <a href="https://github.com/daix6/resume" target="_blank" rel="external">resume</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[gulp and others...]]>
+    
+    </summary>
+    
+      <category term="daily" scheme="http://daixuan.me/tags/daily/"/>
+    
+      <category term="gulp" scheme="http://daixuan.me/tags/gulp/"/>
+    
+      <category term="tech-dairy" scheme="http://daixuan.me/categories/tech-dairy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[日本語の単語（一）]]></title>
+    <link href="http://daixuan.me/2015/05/20/japanese-words/"/>
+    <id>http://daixuan.me/2015/05/20/japanese-words/</id>
+    <published>2015-05-20T14:20:00.000Z</published>
+    <updated>2015-05-23T09:56:07.632Z</updated>
+    <content type="html"><![CDATA[<h2 id="标准日本語_上_第一单元">标准日本語 上　第一单元</h2><h4 id="第１課_李さんは_中国人です">第１課　李さんは　中国人です</h4><p>ちゅうごく　　　　中国<br>ちゅうごくじん　　中国人<br>にほん　　　　　　日本<br>かんこく　　　　　韓国<br>アメリカ<br>とうきょう　　　　東京<br>ペキン　　　　　　北京</p>
+<p>がくせい　　　　　学生<br>せんせい　　　　　先生<br>りゅうがくせい　　　留学生<br>きょうじゅ　　　　教授<br>しゃいん　　　　　社員<br>かいしゃいん　　　会社員<br>てんいん　　　　　店員<br>けんしゅうせい　　研修生<br>きぎょう　　　　　企業<br>だいがく　　　　　大学<br>ちち　　　　　　　父<br>かちょう　　　　　課長<br>しゃちょう　　　　社長<br>りょこうしゃ　　　旅行社<br>でむかえ　　　　　出迎え</p>
+<p>わたし　あなた<br>あのひと　　　　　あの人</p>
+<p>はやし　　　　　　林<br>たなか　　　　　　田中<br>たろう　　　　　　太郎<br>キム<br>デュポン<br>ジョンソン</p>
+<p>どうも<br>こんにちは<br>すみません<br>どうもすみません<br>どうぞ<br>よろしくおねがいします。　よろしくお願いします。<br>はじめまして<br>こちらこそ<br>そうです<br>ちがいます　　　　違います<br>わかりません　　　分かりません</p>
+<h4 id="第２課_これは_本です">第２課　これは　本です</h4><p>ほん　　　　　　　本<br>ブック<br>かばん<br>ノート<br>えんぴつ　　　　　鉛筆<br>かさ　　　　　　　傘<br>くつ　　　　　　　靴<br>しんぶん　　　　　新聞<br>ざっし　　　　　　雑誌<br>カメラ<br>テレビ<br>パソコン<br>ラジオ<br>でんわ　　　　　　電話<br>つくえ　　　　　　机<br>いす　　　　　　　椅子<br>かぎ　　　　　　　鍵<br>とけい　　　　　　時計<br>てちょう　　　　　手帳<br>しゃしん　　　　　写真<br>くるま　　　　　　車<br>じてんしゃ　　　　自転車<br>おみやげ　　　　　お土産<br>めいさんひん　　　名産品<br>シルク<br>ハンカチ<br>かいしゃ　　　　　会社<br>かた　　　　　　　方<br>かぞく　　　　　　家族<br>はは　　　　　　　母<br>おかあさん　　　　お母さん</p>
+<p>これ　それ　あれ　どれ　だれ<br>この　その　あの　どの<br>なん　　　　　　　何</p>
+<p>えっ　わあ　ええ</p>
+<p>ながしま　　　　　長島<br>スワトウ<br>ロンドン</p>
+<p>ありがとうございます。<br>おいくつ<br>なんさい　　　　　何歳</p>
+<h4 id="第３課_ここは_デパートです">第３課　ここは　デパートです</h4><p>でパート<br>しょくどう　　　　食堂<br>ゆうびんきょく　　郵便局<br>ぎんこう　　　　　銀行<br>としょかん　　　　図書館<br>マンション<br>ホテル<br>コンビニ<br>きっさてん　　　　喫茶店<br>びょういん　　　　病院<br>ほんや　　　　　　本屋<br>レストラン<br>ビル<br>たてもの　　　　　建物<br>うりば　　　　　　売り場<br>トイレ<br>いりぐち　　　　　入り口<br>じむしょ　　　　　事務所<br>うけつけ　　　　　受付<br>ばーげんかいじょう　～会場<br>エスカレーター<br>ふく　　　　　　　服<br>コート<br>デジカメ<br>くに　　　　　　　国<br>ちず　　　　　　　地図<br>となり　　　　　　隣<br>しゅうへん　　　　周辺<br>きょう　　　　　　今日<br>すいようび　　　　水曜日<br>もくようび　　　　木曜日</p>
+<p>ここ　　そこ　　あそこ　どこ<br>こちら　そちら　あちら　どちら</p>
+<p>あのう</p>
+<p>シャンハイ　　　　上海</p>
+<h4 id="第４課_部屋に_机と_いすが_います">第４課　部屋に　机と　いすが　います</h4><p>へや　　　　　　　部屋<br>にわ　　　　　　　庭<br>いえ　　　　　　　家<br>いま　　　　　　　居間<br>れいぞうこ　　　　冷蔵庫<br>かべ　　　　　　　壁<br>スイッチ<br>ほんだな　　　　　本棚<br>ベッド<br>ねこ　　　　　　　猫<br>いぬ　　　　　　　犬<br>はこ　　　　　　　箱<br>めがね　　　　　　眼鏡<br>ビデオ<br>サッカーボール<br>ビール<br>ウイスキー<br>こども　　　　　　子供<br>きょうだい　　　　兄弟<br>りょうしん　　　　両親<br>いもうと　　　　　妹<br>おとうと　　　　　弟<br>おとこ　　　　　　男<br>おんな　　　　　　女</p>
+<p>うえ　そと　なか　した　まえ　うしろ　ちかく<br>上　　外　　中　　下　　前　　後ろ　　近く</p>
+<p>ばしょ　　　　　　場所<br>きょうしつ　　　　教室<br>かいぎしつ　　　　会議室<br>としょしつ　　　　図書室<br>こうえん　　　　　公園<br>はなや　　　　　　花屋<br>ばいてん　　　　　売店<br>えき　　　　　　　駅<br>ちかてつ　　　　　地下鉄<br>き　　　　　　　　木<br>ひとりぐらし　　　一人暮らし</p>
+<p>います　あります</p>
+<p>ええと</p>
+<p>よこはま　　　　　横浜<br>なごや　　　　　　名古屋<br>おおさか　　　　　大阪</p>
+<h2 id="标准日本語_上_第二单元">标准日本語 上　第二单元</h2><h3 id="第５課_森さんは_７時に_起きます">第５課　森さんは　７時に　起きます</h3><p>いま　　　　　　　今<br>せんしゅう　　　　先週<br>らいしゅう　　　　来週<br>さらいしゅう　　　さ来週（再来週）<br>こんしゅう　　　　今週<br>きのう　　　　　　昨日<br>あした　　　　　　明日<br>あさって　　　　　（明後日）<br>おととい　　　　　（一昨日）<br>まいにち　　　　　毎日<br>まいあさ　　　　　毎朝<br>まいばん　　　　　毎晩<br>まいしゅう　　　　毎週<br>ごぜん　　　　　　午前　　　　　　　　エーエム　　　　　　　am<br>ごご　　　　　　　午後　　　　　　　　ピーエム              pm<br>けさ　　　　　　　今朝<br>こんばん　　　　　今年<br>らいねん　　　　　来年<br>きょねん　　　　　去年<br>よる　　　　　　　夜<br>ばん　　　　　　　晩<br>あさ　　　　　　　朝<br>がっこう　　　　　学校<br>しけん　　　　　　試験<br>しごと　　　　　　仕事<br>ちこく　　　　　　遅刻<br>しゅっちょう　　　出張<br>けんしゅう　　　　研修<br>りょこう　　　　　旅行<br>てんらんかい　　　展覧会<br>かんげいかい　　　歓迎会<br>パーティー<br>おたく　　　　　　お宅（御宅）<br>いつ<br>いつも</p>
+<p>やすみます　　　　休みます<br>はたらきます　　　働きます<br>はじまります　　　始まります<br>おわります　　　　終わります<br>おきます　　　　　起きます<br>ねます　　　　　　寝ます<br>べんきょうします　勉強します</p>
+<p>こうべ　　　　　　神戸</p>
+<p>おはよう　　　　　お早う</p>
+<h3 id="第６課_吉田さんは_来月_中国へ_行きます">第６課　吉田さんは　来月　中国へ　行きます</h3><p>らいげつ　　　　　来月<br>せんげつ　　　　　先月<br>よなか　　　　　　夜中<br>ゆうべ　　　　　　昨夜<br>コンサート<br>クリスマス<br>たんじょうび　　　誕生日<br>こどものひ　　　　こどもの日<br>なつやすみ　　　　夏休み<br>こうつうきかん　　交通機関<br>しんかんせん　　　新幹線<br>ひこうき　　　　　飛行機<br>フェリー<br>でんしゃ　　　　　電車<br>バス<br>うち　　　　　　　家<br>タクシー<br>びじゅつかん　　　美術館<br>アパート<br>ともだち　　　　　友達<br>おとうと　　　　　弟<br>たしか<br>まっすぐ<br>いっしょに<br>あるいて　　　　　歩いて</p>
+<p>さとう　　　　　　佐藤<br>フランス<br>ひろしま　　　　　広島<br>きょうと　　　　　京都<br>ほっかいどう　　　北海道<br>はこね　　　　　　箱根<br>ぎんざ　　　　　　銀座<br>しぶや　　　　　　渋谷<br>しんじゅく　　　　新宿</p>
+<p>おつかれさまでした　　　お疲れ様でした<br>おさきにしつれいします　お先に失礼します<br>たいへんですね　　　　　大変ですね</p>
+<h3 id="第７課_李さんは_毎日_コーヒーを_飲みます">第７課　李さんは　毎日　コーヒーを　飲みます</h3><p>コーヒー<br>コーラ<br>おちゃ　　　　　　　　　お茶<br>ワイン<br>パン<br>ケーキ<br>おかゆ　　　　　　　　　粥<br>ひるごはん　　　　　　　昼ご飯<br>おべんとう　　　　　　　お弁当<br>そば　　　　　　　　　　蕎麦<br>うどん<br>おやこどん　　　　　　　親子丼<br>カレー<br>たまご　　　　　　　　　卵<br>チーズ<br>リンゴ<br>イチゴ<br>そばや　　　　　　　　　蕎麦屋<br>テニス<br>ジョギング<br>サッカー<br>やきゅう　　　　　　　　野球<br>もうしこみしょ　　　　　申込書<br>てがみ　　　　　　　　　手紙<br>シーディー　　　　　　　ＣＤ<br>おんがく　　　　　　　　音楽<br>えいが　　　　　　　　　映画<br>どうぶつえｎ　　　　　　動物園<br>パンダ</p>
+<p>のみます　　　　　　　　飲みます<br>かいます　　　　　　　　買います<br>とります　　　　　　　　撮ります<br>かきます　　　　　　　　書きます<br>よみます　　　　　　　　読みます<br>ききます　　　　　　　　聞きます<br>たべます　　　　　　　　食べます<br>みます　　　　　　　　　見ます<br>します<br>そうじします　　　　　　掃除します</p>
+<p>これから<br>じゃあ　では<br>いらっしゃいませ<br>しつれいします　　　　　失礼します<br>しつれいしました　　　　失礼しました<br>いってまいります<br>いってらっしゃい<br>ただいま<br>おかえりなさい　　　　　お帰りなさい<br>かしこまりました<br>おじゃまします　　　　　お邪魔します<br>ください<br>ごぜんちゅう　　　　　　午前中</p>
+<h3 id="第８課_李さんは_日本語で_手紙を_書きます">第８課　李さんは　日本語で　手紙を　書きます</h3><p>プレゼント<br>チケット<br>パンフレット<br>きねんひん　　　　　　　記念品<br>スケジュールひょう　　　スケジュール表<br>しゃしんしゅう　　　　　写真集<br>はな　　　　　　　　　　花<br>おかね　　　　　　　　　お金<br>ボールペン<br>しゅくだい　　　　　　　宿題<br>こうくうびん　　　　　　航空便<br>そくたつ　　　　　　　　速達<br>ファックス<br>メール<br>でんわばんごう　　　　　電話番号<br>じゅうしょ　　　　　　　住所<br>なまえ　　　　　　　　　名前<br>けん　　　　　　　　　　件<br>しんぶんし　　　　　　　新聞紙<br>かみひこうき　　　　　　紙飛行機<br>チョコレート<br>アイスクリーム<br>こむぎこ         　　 　小麦粉<br>はし<br>スプーン<br>おにいさん　　　　　　　お兄さん<br>ゆうがた　　　　　　　　夕方<br>ひるやすみ　　　　　　　昼休み</p>
+<p>もう<br>さっき<br>たっだいま<br>もういちど　　　　　　　もう一度<br>まえに　　　　　　　　　前に<br>ちん　　　　　　　　　　陳<br>どうですか<br>おねがいします<br>わかりました　　　　　　分かりました<br>よかったです</p>
+<p>もらいます<br>あいます　　　　　　　　会います<br>おくります　　　　　　　送ります<br>つくります　　　　　　　作ります<br>ふとります　　　　　　　太ります<br>だします　　　　　　　　出します<br>とどきます　　　　　　　届きます<br>かきます　　　　　　　　書きます<br>かします　　　　　　　　貸します<br>ならいます　　　　　　　習います<br>あげます<br>かけます<br>かります　　　　　　　　借ります<br>おしえます　　　　　　　教えます</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[日本語の単語]]>
+    
+    </summary>
+    
+      <category term="words" scheme="http://daixuan.me/tags/words/"/>
+    
+      <category term="日本語" scheme="http://daixuan.me/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[2015 05 19]]></title>
+    <link href="http://daixuan.me/2015/05/19/2015-05-19/"/>
+    <id>http://daixuan.me/2015/05/19/2015-05-19/</id>
+    <published>2015-05-18T16:00:00.000Z</published>
+    <updated>2015-05-21T10:04:07.874Z</updated>
+    <content type="html"><![CDATA[<h3 id="Jade"><a href="jade-lang.com/reference">Jade</a></h3><ul>
+<li><a href="http://stackoverflow.com/questions/26932402/what-is-the-difference-between-buffered-and-unbuffered-code" target="_blank" rel="external">What is the difference between buffered and unbuffered code?</a></li>
+</ul>
+<h3 id="MV**_Patterns">MV** Patterns</h3><ul>
+<li><a href="http://www.cnblogs.com/winter-cn/p/4285171.html" target="_blank" rel="external">谈谈UI架构设计的演化</a></li>
+<li><a href="http://www.cnblogs.com/indream/p/3602348.html" target="_blank" rel="external">从Script到Code Blocks、Code Behind到MVC、MVP、MVVM</a></li>
+</ul>
+<h4 id="MVC">MVC</h4><ul>
+<li><p><a href="http://heim.ifi.uio.no/~trygver/1979/mvc-2/1979-12-MVC.pdf" target="_blank" rel="external">Models-Views-Controllers</a></p>
+</li>
+<li><p><a href="http://www.ituring.com.cn/article/38394" target="_blank" rel="external">JavaScript MVC框架PK：Angular、Backbone、CanJS与Ember</a></p>
+</li>
+</ul>
+<h4 id="MVP">MVP</h4><ul>
+<li><a href="http://metrology.googlecode.com/svn-history/r350/trunk/doc/ebooks/mvp.pdf" target="_blank" rel="external">mvp</a></li>
+</ul>
+<h4 id="MVVM">MVVM</h4><ul>
+<li><a href="http://www.cnblogs.com/winter-cn/archive/2012/08/08/2628200.html" target="_blank" rel="external">【翻译】使用MVVM模式构建WPF应用程序介绍</a></li>
+</ul>
+<h3 id="B/S_C/S">B/S C/S</h3>]]></content>
+    <summary type="html">
+    <![CDATA[Jade / MVC]]>
+    
+    </summary>
+    
+      <category term="MV**" scheme="http://daixuan.me/tags/MV/"/>
+    
+      <category term="daily" scheme="http://daixuan.me/tags/daily/"/>
+    
+      <category term="jade" scheme="http://daixuan.me/tags/jade/"/>
+    
+      <category term="tech-dairy" scheme="http://daixuan.me/categories/tech-dairy/"/>
+    
+  </entry>
+  
+</feed>
