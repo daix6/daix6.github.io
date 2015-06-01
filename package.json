@@ -1,0 +1,26 @@
+{
+  "name": "daix6.github.io",
+  "version": "1.0.0",
+  "description": "index for daixuan",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daix6/daix6.github.io"
+  },
+  "author": "Shawn Dai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daix6/daix6.github.io/issues"
+  },
+  "homepage": "https://github.com/daix6/daix6.github.io",
+  "dependencies": {
+    "gulp-jade": "^1.0.0",
+    "gulp-less": "^3.0.3",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-gh-pages": "^0.5.1"
+  }
+}
