@@ -1,7 +1,21 @@
-doctype html
-html
-  head
-    title XD~
-    meta(charset='utf-8')
-  body
-    p hello, world
+extends ./layout/layout.jade
+
+block style
+  link(rel='stylesheet', href='./css/index.css')
+
+block scripts
+  script(type='text/javascript', src='./static/jquery.min.js')
+
+block author
+  figure
+    img()
+  address
+    ul
+      li hey
+
+block content
+  p 项目
+  
+block footer
+  p Designed and Developed by Shawn Dai
+  p Copyright © 2015 dandyweng.com. All Rights Reserved.
