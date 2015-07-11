@@ -1,21 +1,24 @@
 extends ./layout/layout.jade
+include ./mixins/mixin.jade
 
 block style
   link(rel='stylesheet', href='./css/index.css')
 
-block scripts
-  script(type='text/javascript', src='./static/jquery.min.js')
-
 block author
   figure
-    img()
+    +avatar
+  section
+    h3 Shawn Dai
+    h5 前端工程师
   address
-    ul
-      li hey
+    +contact
 
 block content
-  p 项目
-  
-block footer
-  p Designed and Developed by Shawn Dai
-  p Copyright © 2015 dandyweng.com. All Rights Reserved.
+  main
+    header
+
+    article
+
+//- block footer
+//-   p Designed and Developed by Shawn Dai
+//-   p Copyright © 2015 daixuan.me. All Rights Reserved.

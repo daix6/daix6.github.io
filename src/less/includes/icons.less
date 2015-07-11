@@ -33,14 +33,14 @@
 
 .set-li-icon(@li-class, @content, @color: black) {
   .@{li-class} {
-    padding-left: @padding-icon-horizontal + @font-size-base;
+    padding-left: 8px + @font-size-base;
   }
   .@{li-class}::before {
     .fa();
     color: @color;
     content: @content;
-    width: @padding-icon-horizontal + @font-size-base;
-    margin-left:  -@padding-icon-horizontal - @font-size-base;
+    width: 8px + @font-size-base;
+    margin-left:  -8px - @font-size-base;
     display: inline-block;
   }
 }

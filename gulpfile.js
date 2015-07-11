@@ -1,6 +1,8 @@
 var gulp = require('gulp');
 var plugins = require('gulp-load-plugins')();
 var path = require('path');
+var http = require('http');
+var st = require('st');
 
 // Jade to html
 gulp.task('jade', function() {
@@ -9,7 +11,8 @@ gulp.task('jade', function() {
       pretty: true,
       locals: require('./local.js')
     }))
-    .pipe(gulp.dest('./dist/'));
+    .pipe(gulp.dest('./dist/'))
+    .pipe(plugins.livereload());
 });
 
 // less to css
@@ -21,7 +24,8 @@ gulp.task('less', function() {
               path.join(__dirname, 'src', 'less', 'components')]
     }))
     .pipe(plugins.sourcemaps.write())
-    .pipe(gulp.dest('./dist/css'));
+    .pipe(gulp.dest('./dist/css'))
+    .pipe(plugins.livereload());
 });
 
 // Static
@@ -29,7 +33,8 @@ gulp.task('static', function() {
   return gulp.src('./static/**/*', {
       base: 'static'
     })
-    .pipe(gulp.dest('./dist/static/'));
+    .pipe(gulp.dest('./dist/static/'))
+    .pipe(plugins.livereload());
 });
 
 gulp.task('watch', function() {
@@ -43,8 +48,21 @@ gulp.task('deploy', ['build'], function() {
   return gulp.src('./dist/**/*')
     .pipe(plugins.ghPages({
       branch: "master",
-      message: "test"
+      message: "base"
     }));
 });
+
+function server(done) {
+  http.createServer(
+    st({
+      path: __dirname + '/dist',
+      index: 'index.html',
+      cache: false
+    })
+    ).listen(8888, done);
+  console.log("listening on http://localhost:8888");
+}
+
+gulp.task('server', ['build'], server);
 
 gulp.task('default', ['build', 'watch']);
