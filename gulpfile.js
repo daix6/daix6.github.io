@@ -64,7 +64,7 @@ function server(done) {
 
 gulp.task('server', ['build'], server);
 
-gulp.task('deploy', ['clean', 'build'], function() {
+gulp.task('deploy', ['build'], function() {
   return gulp.src('./dist/**/*')
     .pipe(plugins.ghPages({
       branch: 'master',
@@ -72,4 +72,4 @@ gulp.task('deploy', ['clean', 'build'], function() {
     }));
 });
 
-gulp.task('default', ['clean', 'server', 'watch']);
+gulp.task('default', ['server', 'watch']);

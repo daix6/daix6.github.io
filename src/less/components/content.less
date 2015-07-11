@@ -1,0 +1,26 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: @aside-width;
+  width: @main-width;
+  height: 100%;
+  padding: @aside-padding;
+
+  section {
+    line-height: 1.667;
+  }
+}
+
+header {
+  padding-bottom: .75rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.short {
+  height: 100px;
+}
+
+.set-li-icon(resume, @fa-var-book, inherits);
+.set-li-icon(fep, @fa-var-link, inherits);
+.set-li-icon(diary, @fa-var-link, inherits);
