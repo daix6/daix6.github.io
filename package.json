@@ -17,13 +17,14 @@
   },
   "homepage": "https://github.com/daix6/daix6.github.io",
   "dependencies": {
+  },
+  "devDependencies": {
     "gulp-jade": "^1.0.0",
     "gulp-less": "^3.0.3",
     "gulp-load-plugins": "^0.10.0",
     "gulp-sourcemaps": "^1.5.2",
-    "gulp-gh-pages": "^0.5.1"
-  },
-  "devDependencies": {
-    "livereload": "^0.3.7"
+    "gulp-gh-pages": "^0.5.1",
+    "gulp-livereload": "^3.8.0",
+    "st": "^0.5.4"
   }
 }

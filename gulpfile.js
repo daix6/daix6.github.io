@@ -8,8 +8,7 @@ var st = require('st');
 gulp.task('jade', function() {
   return gulp.src('./src/jade/index.jade')
     .pipe(plugins.jade({
-      pretty: true,
-      locals: require('./local.js')
+      pretty: true
     }))
     .pipe(gulp.dest('./dist/'))
     .pipe(plugins.livereload());
@@ -38,8 +37,9 @@ gulp.task('static', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch(['./src/**/*.jade', './local.js'], ['jade']);
-  gulp.watch('./src/**/*.less', ['less']);
+  plugins.livereload.listen({ basePath: 'dist' });
+  gulp.watch(['./src/jade/index.jade', './local.js'], ['jade']);
+  gulp.watch('./src/less/**/*.less', ['less']);
 });
 
 gulp.task('build', ['jade', 'less', 'static']);
@@ -65,4 +65,4 @@ function server(done) {
 
 gulp.task('server', ['build'], server);
 
-gulp.task('default', ['build', 'watch']);
+gulp.task('default', ['server', 'watch']);

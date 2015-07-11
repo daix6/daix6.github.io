@@ -3,10 +3,35 @@ aside {
   left: 0;
   top: 0;
 
-  width: 300px;
+  min-width: 250px;
   height: 100%;
-  padding: 10px;
+  padding: @aside-padding;
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.avatar {
+  width: @aside-avatar-size;
+  height: @aside-avatar-size;
+  margin: 0 auto;
+
+  img {
+    width: @aside-avatar-size;
+    height: @aside-avatar-size;
+    border-radius: 50%;
+  }
+}
+
+.author-info {
+  margin-top: 25px;
+}
+
+.contact {
+  position: absolute;
+  bottom: @aside-avatar-size;
+
+  hr {
+    margin: 10px 0;
+  }
 }
 
 .set-li-icon(email, @fa-var-envelope, white);
