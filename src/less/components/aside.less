@@ -3,7 +3,7 @@ aside {
   left: 0;
   top: 0;
 
-  min-width: @aside-width;
+  width: @aside-width;
   height: 100%;
   padding: @aside-padding;
   background-color: rgba(0, 0, 0, 0.5);
@@ -40,8 +40,10 @@ aside {
     margin: 5px 0;
   }
 
-  a:hover {
-    cursor: pointer;
+  a:visited {
+    color: inherit;
+  }
+  a:hover, a:focus, a:active {
     color: @bg-color;
   }
 }

@@ -9,6 +9,10 @@
   section {
     line-height: 1.667;
   }
+
+  section + section {
+    margin: 25px 0;
+  }
 }
 
 header {
@@ -17,10 +21,22 @@ header {
   border-bottom: 1px solid #ccc;
 }
 
-.short {
-  height: 100px;
+dl {
+  margin-top: 25px;
 }
 
-.set-li-icon(resume, @fa-var-book, inherits);
-.set-li-icon(fep, @fa-var-link, inherits);
-.set-li-icon(diary, @fa-var-link, inherits);
+section dd {
+  padding-left: 24px;
+}
+
+dt h5 {
+  display: inline-block;
+}
+
+dd p {
+  padding: 0 5px;
+}
+
+.set-li-icon(resume, @fa-var-book, inherit);
+.set-li-icon(fep, @fa-var-link, inherit);
+.set-li-icon(diary, @fa-var-calendar, inherit);

@@ -17,23 +17,20 @@ block author
 
 block content
   main
-    header
-      h2 Welcome to Shawn's website!
     article
       section.short
+        header
+          h3 Welcome to Shawn's website!
         p.
-          I'm Shawn, and I'm learning how to be an excellent front-end engineer.
-        p.
-          Here are some useful links that I've put my energy in, which may help you to know me better!
+          I'm Shawn, a junior at Software School, Sun Yat-Sen University. I'm learning how to be an excellent front-end engineer now.
       section.experience
-        ul
-          li.resume
-            a(href='#', target='_blank') My resume
-          li.fep
-            a(href='#', target='_blank') e_help
-          li.diary
-            a(href='#', target='_blank') diary
-
-//- block footer
-//-   p Designed and Developed by Shawn Dai
-//-   p Copyright © 2015 daixuan.me. All Rights Reserved.
+        header
+          h3 Experience
+        p.
+          Here are some useful links that I've put my energy in before, which may help you to know me better!
+        +experience
+      section.copyright
+        header
+          h3 Copyright
+        p Designed and Developed by Shawn Dai.
+        p Copyright © 2015 daixuan.me. All Rights Reserved.
