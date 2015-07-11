@@ -3,7 +3,7 @@ aside {
   left: 0;
   top: 0;
 
-  min-width: 250px;
+  min-width: @aside-width;
   height: 100%;
   padding: @aside-padding;
   background-color: rgba(0, 0, 0, 0.5);
@@ -12,29 +12,43 @@ aside {
 .avatar {
   width: @aside-avatar-size;
   height: @aside-avatar-size;
-  margin: 0 auto;
 
   img {
     width: @aside-avatar-size;
     height: @aside-avatar-size;
-    border-radius: 50%;
+    border-radius: 5%;
   }
 }
 
 .author-info {
-  margin-top: 25px;
+  margin-top: 50px;
+
+  h2 {
+    margin-bottom: 10px;
+  }
 }
 
 .contact {
   position: absolute;
-  bottom: @aside-avatar-size;
+  bottom: 50px;
 
   hr {
     margin: 10px 0;
+  }
+
+  li {
+    margin: 5px 0;
+  }
+
+  a:hover {
+    cursor: pointer;
+    color: @bg-color;
   }
 }
 
 .set-li-icon(email, @fa-var-envelope, white);
 .set-li-icon(phone, @fa-var-phone, white);
-.set-li-icon(website, @fa-var-rss, white);
+.set-li-icon(website, @fa-var-link, white);
 .set-li-icon(degree, @fa-var-graduation-cap, white);
+.set-li-icon(github, @fa-var-github, white);
+.set-li-icon(weibo, @fa-var-weibo, white);

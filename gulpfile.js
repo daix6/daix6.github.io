@@ -3,6 +3,7 @@ var plugins = require('gulp-load-plugins')();
 var path = require('path');
 var http = require('http');
 var st = require('st');
+var del = require('del');
 
 // Jade to html
 gulp.task('jade', function() {
@@ -44,12 +45,10 @@ gulp.task('watch', function() {
 
 gulp.task('build', ['jade', 'less', 'static']);
 
-gulp.task('deploy', ['build'], function() {
-  return gulp.src('./dist/**/*')
-    .pipe(plugins.ghPages({
-      branch: "master",
-      message: "base"
-    }));
+gulp.task('clean', function(cb) {
+  return del([
+    'dist/**/**/*',
+    '!dist/CNAME'], cb)
 });
 
 function server(done) {
@@ -60,9 +59,17 @@ function server(done) {
       cache: false
     })
     ).listen(8888, done);
-  console.log("listening on http://localhost:8888");
+  console.log('listening on http://localhost:8888');
 }
 
 gulp.task('server', ['build'], server);
 
-gulp.task('default', ['server', 'watch']);
+gulp.task('deploy', ['clean', 'build'], function() {
+  return gulp.src('./dist/**/*')
+    .pipe(plugins.ghPages({
+      branch: 'master',
+      message: 'base'
+    }));
+});
+
+gulp.task('default', ['clean', 'server', 'watch']);
