@@ -31,7 +31,6 @@ main {
   }
 }
 
-
 header {
   padding-bottom: .75rem;
   margin-bottom: 0.75rem;
@@ -62,11 +61,16 @@ dd p {
   text-decoration: underline;
 }
 
+.short h3 {
+  margin-right: @mobile-click-size;
+}
+
 #click_mobile {
   display: none;
 
   @media (max-width: @screen-sm-min) {
     display: inline;
+    margin-right: -@mobile-click-size;
   }
 
   &::before {
