@@ -42,9 +42,11 @@
     function move (e) {
       if (util.hasClass(aside, 'mobile')) {
         util.removeClass(aside, 'mobile');
+        util.removeClass(button, 'mobile');
         util.removeClass(container, 'mobile');
       } else {
         util.addClass(aside, 'mobile');
+        util.addClass(button, 'mobile');
         util.addClass(container, 'mobile');
       }
     }

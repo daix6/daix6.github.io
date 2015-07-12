@@ -2,6 +2,7 @@
   position: absolute;
   top: 0;
   left: @aside-width;
+  padding: @default-padding;
 
   @media (max-width: @screen-sm-min) {
     left: 0;
@@ -12,20 +13,19 @@
   }
 }
 
-
 main {
-  padding: @default-padding;
-
   section {
     line-height: 1.667;
   }
 
   section + section {
-    margin: 25px 0;
+    margin: @default-margin 0;
   }
 
   a {
+    .transition(color);
     &:hover, &:focus, &:active {
+      .transition(color);
       color: darken(@text-color, 10%);
     }
   }
@@ -39,11 +39,11 @@ header {
 }
 
 dl {
-  margin-top: 25px;
+  margin-top: @default-margin;
 }
 
 section dd {
-  padding-left: 25px;
+  padding-left: @default-margin;
 }
 
 dt h5 {
@@ -54,21 +54,38 @@ dd p {
   padding: 0 5px;
 }
 
+.copyright {
+  margin-top: @default-margin;
+}
+
 .copyright a {
   text-decoration: underline;
 }
 
-.short span {
+#click_mobile {
   display: none;
+
   @media (max-width: @screen-sm-min) {
     display: inline;
   }
 
   &::before {
     cursor: pointer;
-    .fa-icon(24px, 8px, inherit, @macaron-matcha);
+    .fa-icon(24px, 8px, inherit, @text-color);
     content: @fa-var-angle-double-right;
+    font-size: 24px;
   }
+
+  .transition(transform);
+
+  &.mobile {
+    transform: rotate(-180deg);
+    .transition(transform);
+  }
+}
+
+#click_mobile.mobile {
+  transform: rotate(-180deg);
 }
 
 .set-li-icon(resume, @fa-var-book, inherit);
