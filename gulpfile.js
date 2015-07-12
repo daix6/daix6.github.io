@@ -67,8 +67,7 @@ gulp.task('server', ['build'], server);
 gulp.task('deploy', ['build'], function() {
   return gulp.src('./dist/**/*')
     .pipe(plugins.ghPages({
-      branch: 'master',
-      message: 'base'
+      branch: 'master'
     }));
 });
 
