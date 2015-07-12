@@ -1,18 +1,18 @@
 aside {
   position: fixed;
-  left: 0;
-  top: 0;
 
   @media (max-width: @screen-sm-min) {
     left: -@aside-width;
-    .transition(left);
   }
 
+  left: 0;
+  top: 0;
   width: @aside-width;
   height: 100vh;
   padding: @default-padding;
   background-color: rgba(0, 0, 0, 0.7);
 
+  .transition(left);
   z-index: 100;
   address {
     font-style: normal;
@@ -20,13 +20,15 @@ aside {
 }
 
 aside.mobile {
-  @media (max-width: @screen-sm-min) {
-    left: 0;
-    .transition(left);
-  }
+  left: 0;
+  .transition(left);
 }
 
 .avatar {
+  @media (max-height: @screen-sm-height-min) {
+    display: none;
+  }
+
   width: @aside-avatar-size;
   height: @aside-avatar-size;
 
@@ -38,6 +40,9 @@ aside.mobile {
 }
 
 .author-info {
+  @media (max-height: @screen-sm-height-min) {
+    margin-top: 0;
+  }
   margin-top: @default-margin;
 
   h2 {
@@ -47,6 +52,14 @@ aside.mobile {
 
 .contact {
   position: absolute;
+  @media (max-height: @screen-xs-height-min) {
+    h3 {
+      display: none;
+    }
+  }
+  @media (max-height: @screen-sm-height-min) {
+    bottom: 0;
+  }
   bottom: @default-margin;
 
   hr {

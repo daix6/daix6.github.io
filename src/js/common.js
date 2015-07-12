@@ -35,9 +35,9 @@
   };
 
   var click_mobile = (function _click_mobile() {
-    var button = document.getElementById('click_mobile');
-    var aside = document.getElementsByTagName('aside')[0];
-    var container = document.getElementsByClassName('container')[0];
+    var button = d.getElementById('click_mobile');
+    var aside = d.getElementsByTagName('aside')[0];
+    var container = d.getElementsByClassName('container')[0];
 
     function move (e) {
       if (util.hasClass(aside, 'mobile')) {

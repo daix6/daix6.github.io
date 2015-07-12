@@ -1,16 +1,19 @@
 .container {
   position: absolute;
-  top: 0;
-  left: @aside-width;
-  padding: @default-padding;
 
   @media (max-width: @screen-sm-min) {
     left: 0;
 
     &.mobile {
       opacity: 0.5;
+      .transition(opacity);
     }
   }
+
+  top: 0;
+  left: @aside-width;
+  padding: @default-padding;
+  .transition(opacity);
 }
 
 main {
