@@ -2,8 +2,19 @@
   position: absolute;
   top: 0;
   left: @aside-width;
-  width: auto;
-  padding: @aside-padding;
+
+  @media (max-width: @screen-sm-min) {
+    left: 0;
+
+    &.mobile {
+      opacity: 0.5;
+    }
+  }
+}
+
+
+main {
+  padding: @default-padding;
 
   section {
     line-height: 1.667;
@@ -12,7 +23,14 @@
   section + section {
     margin: 25px 0;
   }
+
+  a {
+    &:hover, &:focus, &:active {
+      color: darken(@text-color, 10%);
+    }
+  }
 }
+
 
 header {
   padding-bottom: .75rem;
@@ -25,7 +43,7 @@ dl {
 }
 
 section dd {
-  padding-left: 24px;
+  padding-left: 25px;
 }
 
 dt h5 {
@@ -34,6 +52,23 @@ dt h5 {
 
 dd p {
   padding: 0 5px;
+}
+
+.copyright a {
+  text-decoration: underline;
+}
+
+.short span {
+  display: none;
+  @media (max-width: @screen-sm-min) {
+    display: inline;
+  }
+
+  &::before {
+    cursor: pointer;
+    .fa-icon(24px, 8px, inherit, @macaron-matcha);
+    content: @fa-var-angle-double-right;
+  }
 }
 
 .set-li-icon(resume, @fa-var-book, inherit);

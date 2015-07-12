@@ -28,6 +28,12 @@ gulp.task('less', function() {
     .pipe(plugins.livereload());
 });
 
+gulp.task('javascript', function() {
+  return gulp.src('./src/js/*.js')
+    .pipe(gulp.dest('./dist/js/'))
+    .pipe(plugins.livereload());
+})
+
 // Static
 gulp.task('static', function() {
   return gulp.src('./static/**/*', {
@@ -41,9 +47,10 @@ gulp.task('watch', function() {
   plugins.livereload.listen({ basePath: 'dist' });
   gulp.watch(['./src/jade/index.jade', './local.js'], ['jade']);
   gulp.watch('./src/less/**/*.less', ['less']);
+  gulp.watch('./src/js/*.js', ['javascript']);
 });
 
-gulp.task('build', ['jade', 'less', 'static']);
+gulp.task('build', ['jade', 'less', 'javascript', 'static']);
 
 gulp.task('clean', function(cb) {
   return del([

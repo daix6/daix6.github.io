@@ -21,16 +21,22 @@ block content
       section.short
         header
           h3 Welcome to Shawn's website!
+            span#click_mobile.fr
         p.
           I'm Shawn, a junior who major in Software Engineering at Software School in Sun Yat-Sen University. I'm learning how to be an excellent front-end engineer now.
       section.experience
         header
           h3 Experience
         p.
-          Here are some useful links that I've put my energy in before, which may help you to know me better!
+          Here are some useful links that I am working on or I've worked on, which may help you to know me better!
         +experience
       section.copyright
         header
           h3 Copyright
-        p Designed and Developed by Shawn Dai.
-        p Copyright © 2015 daixuan.me. All Rights Reserved.
+        address Designed and Developed by Shawn Dai - 
+          a(href='https://github.com/daix6/daix6.github.io', target='_blank') Source
+        p.
+          Copyright 2015 © daixuan.me. All Rights Reserved.
+
+block scripts
+  script(src='./js/common.js', type='text/javascript')

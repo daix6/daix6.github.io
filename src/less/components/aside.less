@@ -3,10 +3,25 @@ aside {
   left: 0;
   top: 0;
 
+  @media (max-width: @screen-sm-min) {
+    left: -@aside-width;
+  }
+
   width: @aside-width;
-  height: 100%;
-  padding: @aside-padding;
-  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  padding: @default-padding;
+  background-color: rgba(0, 0, 0, 0.7);
+
+  z-index: 100;
+  address {
+    font-style: normal;
+  }
+}
+
+aside.mobile {
+  @media (max-width: @screen-sm-min) {
+    left: 0;
+  }
 }
 
 .avatar {
