@@ -1,14 +1,17 @@
 aside {
   position: fixed;
 
-  @media (max-width: @screen-sm-min) {
+  @media (max-width: @screen-sm-max) {
     left: -@aside-width;
   }
 
-  left: 0;
+  @media (min-width: @screen-sm-min) {
+    left: 0;
+  }
+
   top: 0;
   width: @aside-width;
-  height: 100vh;
+  height: 100%;
   padding: @default-padding;
   background-color: rgba(0, 0, 0, 0.7);
 
