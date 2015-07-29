@@ -29,7 +29,7 @@ gulp.task('less', function() {
 });
 
 gulp.task('javascript', function() {
-  return gulp.src('./src/js/*.js')
+  return gulp.src('./src/js/**/*')
     .pipe(gulp.dest('./dist/js/'))
     .pipe(plugins.livereload());
 })
@@ -45,9 +45,9 @@ gulp.task('static', function() {
 
 gulp.task('watch', function() {
   plugins.livereload.listen({ basePath: 'dist' });
-  gulp.watch(['./src/jade/index.jade', './local.js'], ['jade']);
+  gulp.watch(['./src/jade/**/*.jade', './local.js'], ['jade']);
   gulp.watch('./src/less/**/*.less', ['less']);
-  gulp.watch('./src/js/*.js', ['javascript']);
+  gulp.watch('./src/js/**/*.js', ['javascript']);
 });
 
 gulp.task('build', ['jade', 'less', 'javascript', 'static']);
