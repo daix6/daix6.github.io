@@ -1,4 +1,4 @@
-## Navigation Generator
+## A Navigation Generator
 
 A simple SPA (single page application).  
 

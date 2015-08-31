@@ -1,4 +1,4 @@
-define(function () {
+module.exports = (function () {
   return {
     addEvent: function(ele, event, handler) {
       if (ele.addEventListener) {
@@ -31,4 +31,4 @@ define(function () {
       }
     }
   };
-});
+})();

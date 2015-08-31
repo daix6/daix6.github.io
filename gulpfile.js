@@ -4,6 +4,8 @@ var path = require('path');
 var http = require('http');
 var st = require('st');
 var del = require('del');
+var browserify = require('browserify');
+var source = require('vinyl-source-stream');
 
 // Jade to html
 gulp.task('jade', function() {
@@ -29,8 +31,10 @@ gulp.task('less', function() {
 });
 
 gulp.task('javascript', function() {
-  return gulp.src('./src/js/**/*')
-    .pipe(gulp.dest('./dist/js/'))
+  return browserify('./src/js/main.js')
+    .bundle()
+    .pipe(source('bundle.js'))
+    .pipe(gulp.dest('./dist/js'))
     .pipe(plugins.livereload());
 })
 
@@ -65,7 +69,7 @@ function server(done) {
       index: 'index.html',
       cache: false
     })
-    ).listen(8888, done);
+  ).listen(8888, done);
   console.log('listening on http://localhost:8888');
 }
 
