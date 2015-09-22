@@ -18,21 +18,27 @@ block author
 block content
   main
     article
-      section.short
+      section#welcome
         header
-          h3 Welcome to Shawn's website!
+          h3 
+            a(href='#welcome').
+              Welcome to Shawn's website!
             span#click_mobile.fr
         p.
           I'm Shawn, a junior who major in Software Engineering at Software School in Sun Yat-Sen University. I'm learning how to be an excellent front-end engineer now.
-      section.experience
+      section#experience
         header
-          h3 Experience
+          h3
+            a(href='#experience').
+              Experience
         p.
           Here are some useful links that I am working on or I've worked on, which may help you to know me better!
         +experience
-      footer.copyright
+      footer#copyright
         header
-          h3 Copyright
+          h3 
+            a(href='#copyright').
+              Copyright
         address Designed and Developed by Shawn Dai - 
           a(href='https://github.com/daix6/daix6.github.io', target='_blank') Source
         p.
